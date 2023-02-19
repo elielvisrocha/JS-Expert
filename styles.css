@@ -1,0 +1,9 @@
+div {
+    border: 2px saddlebrown solid;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    background-image: conic-gradient(at 90%, red, green, blue);
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.8);
+}
