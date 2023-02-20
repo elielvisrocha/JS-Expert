@@ -92,25 +92,61 @@
 // line \n\
 // strings")
 
-const age = 19;
-const checkAge = age >= 18;
+// const age = 19;
+// const checkAge = age >= 18;
 
-if (checkAge) {
-    console.log(`Can join in the party`);
-}
-else {
-    console.log(`Can't join in the party`);
-};
-
-
+// if (checkAge) {
+//     console.log(`Can join in the party`);
+// }
+// else {
+//     console.log(`Can't join in the party`);
+// };
 
 
-const birthYear = 2003;
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-    console.log(century)
-} else {
-    century = 21;
-    console.log(century)
-}; 
+
+
+// const birthYear = 2003;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+//     console.log(century)
+// } else {
+//     century = 21;
+//     console.log(century)
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+//TYPE CONVERSION
+
+
+// let number = "2000";
+// console.log(typeof number);
+// console.log(+number + 10);
+
+// let x = Number(number);
+// console.log(typeof x);
+
+
+//TYPE COERSION
+ 
+console.log("I'm " + 19 + " years old");
+console.log(90 - "20" - 10);
+console.log(90 * "20" * 10);
+
+
+
+
+
+
+
+''
