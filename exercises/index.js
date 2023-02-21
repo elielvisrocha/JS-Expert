@@ -13,15 +13,15 @@
 
 
 
-const Marks = {
-    weight: 78,
-    tall: 1.69
-};
+// const Marks = {
+//     weight: 78,
+//     tall: 1.69
+// };
 
-const John = {
-    weight: 92,
-    tall: 1.95
-}
+// const John = {
+//     weight: 92,
+//     tall: 1.95
+// }
 
 // const Marks = {
 //     weight: 95,
@@ -35,21 +35,21 @@ const John = {
 
 
 
-let calculateBMIMark = Marks.weight / Marks.tall ** 2;
-console.log(calculateBMIMark);
+// let calculateBMIMark = Marks.weight / Marks.tall ** 2;
+// console.log(calculateBMIMark);
 
-let calculateBMIJohn = John.weight / John.tall ** 2;
-console.log(calculateBMIJohn);
+// let calculateBMIJohn = John.weight / John.tall ** 2;
+// console.log(calculateBMIJohn);
 
-let markeHigherBMI = calculateBMIJohn < calculateBMIMark;
+// let markeHigherBMI = calculateBMIJohn < calculateBMIMark;
 
-console.log(markeHigherBMI);
+// console.log(markeHigherBMI);
 
-if (calculateBMIJohn < calculateBMIMark) {
-    console.log(`Marks BMI ${calculateBMIMark.toFixed(0)} is higher than John ${calculateBMIJohn.toFixed(0)}.`);
-} else {
-    console.log(`John BMI ${calculateBMIJohn.toFixed(0)} is higher than Marks ${calculateBMIMark.toFixed(0)}.`);
-};
+// if (calculateBMIJohn < calculateBMIMark) {
+//     console.log(`Marks BMI ${calculateBMIMark.toFixed(0)} is higher than John ${calculateBMIJohn.toFixed(0)}.`);
+// } else {
+//     console.log(`John BMI ${calculateBMIJohn.toFixed(0)} is higher than Marks ${calculateBMIMark.toFixed(0)}.`);
+// };
 
 
-//
+// //
