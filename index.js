@@ -195,45 +195,60 @@
 
 //SWITCH STATAMENT
 
-const day = 2;
+// const day = 2;
 
-if (day === 1) {
-    console.log("Monday");
-} else if (day === 2) {
-    console.log("Tuesday");
-} else if (day === 3) {
-    console.log("Wednesday");
-} else if (day === 4) {
-    console.log("Thursday");
-} else if (day === 5) {
-    console.log("Friday");
-} else if (day === 6) {
-    console.log("Saturday");
-} else if (day === 7) {
-    console.log("Sunday");
-} 
+// if (day === 1) {
+//     console.log("Monday");
+// } else if (day === 2) {
+//     console.log("Tuesday");
+// } else if (day === 3) {
+//     console.log("Wednesday");
+// } else if (day === 4) {
+//     console.log("Thursday");
+// } else if (day === 5) {
+//     console.log("Friday");
+// } else if (day === 6) {
+//     console.log("Saturday");
+// } else if (day === 7) {
+//     console.log("Sunday");
+// }
 
+// switch (day) {
+//   case 1:
+//     console.log(`Monday`);
+//     break;
+//   case 2:
+//     console.log(`Tuesday`);
+//     break;
+//   case 3:
+//     console.log(`Wednesday`);
+//     break;
+//   case 4:
+//     console.log(`Thursday`);
+//     break;
+//   case 5:
+//     console.log(`Friday`);
+//     break;
+//   case 6:
+//     console.log(`Saturday`);
+//     break;
+//   case 7:
+//     console.log(`Sunday`);
+//     break;
+// }
 
-switch (day) {
-  case 1:
-    console.log(`Monday`);
-    break;
-  case 2:
-    console.log(`Tuesday`);
-    break;
-  case 3:
-    console.log(`Wednesday`);
-    break;
-  case 4:
-    console.log(`Thursday`);
-    break;
-  case 5:
-    console.log(`Friday`);
-    break;
-  case 6:
-    console.log(`Saturday`);
-    break;
-  case 7:
-    console.log(`Sunday`);
-    break;
-}
+// STATEMENTS AND EXPRESSIONS
+
+// 4 + 8 // Expression
+// 1880 //Expression
+
+//Statement
+
+// if (45 > 20) {
+//   console.log(`45 is too big`)
+// }
+
+//TERNARY OPERATOR
+
+const age = 19;
+age >= 18 ? console.log(`Can join`) : console.log(`Can't join`);
