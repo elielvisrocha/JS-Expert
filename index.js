@@ -250,5 +250,5 @@
 
 //TERNARY OPERATOR
 
-const age = 19;
-age >= 18 ? console.log(`Can join`) : console.log(`Can't join`);
+// const age = 19;
+// age >= 18 ? console.log(`Can join`) : console.log(`Can't join`);
